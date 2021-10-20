@@ -1,0 +1,21 @@
+{
+   "name": "apps-maker",
+   "main": "index.js",
+   "version": "1.0.0",
+   "private": "true",
+   "license": "MIT",
+   "dependencies": {
+      "@types/node": "^16.11.1",
+      "@types/shelljs": "^0.8.9",
+      "inquirer": "^8.2.0",
+      "shelljs": "^0.8.4"
+   },
+   "devDependencies": {
+      "@types/inquirer": "^8.1.3",
+      "ts-node": "^10.3.0",
+      "typescript": "^4.4.4"
+   },
+   "scripts": {
+      "build": "ts-node ./src/index.ts"
+   }
+}
