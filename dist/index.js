@@ -1,4 +1,4 @@
-"use strict";
+#!/usr/bin/env node
 var questions = require('./questions');
 var handler = require('./handler');
 var inquirer = require('inquirer');

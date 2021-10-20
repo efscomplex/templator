@@ -23,5 +23,12 @@ module.exports = (answers) => {
       filters.every((filter) => filter(repo))
    )[0]
 
+   const appName = path.split('/').slice(-1)
    shell.exec(`npx degit ${repo} ${path}`)
+   shell.echo(`Your app '${appName}' is ready to go.
+      Next steps:
+      ▶️ cd ${appName}
+      ▶️ npm install
+      ▶️ npm start
+   `)
 }

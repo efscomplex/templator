@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const questions = require('./questions')
 const handler = require('./handler')
 const inquirer = require('inquirer')

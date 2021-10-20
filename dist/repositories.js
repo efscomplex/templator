@@ -1,4 +1,3 @@
-"use strict";
 var repos = [
     'efscomplex/snowpack-react',
     'Uninen/vite-ts-tailwind-starter',
