@@ -1,6 +1,7 @@
 {
    "name": "@efsdev/templator",
-   "main": "index.js",
+   "main": "dist/index.js",
+   "bin": "dist/index.js",
    "version": "1.0.0",
    "license": "MIT",
    "dependencies": {
